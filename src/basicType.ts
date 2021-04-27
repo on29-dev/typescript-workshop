@@ -22,7 +22,7 @@ undefinedValue = null
 objValue = new String('hello'); // => new를 붙였기 때문에 String 레퍼타입, String 객체가 반환되므로 가능(만약 String('hello') 라고만 했다면 string으로 처리되어 에러 발생)
 // objValue = String("This is string");
 
-symbolValue = Symbol();
+// symbolValue = Symbol();
 // {
 //     symbolValue: "hello" // 이런 식으로 사용하게 됨
 // }

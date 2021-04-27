@@ -1,0 +1,25 @@
+var anyValue;
+var numValue;
+var stringValue;
+var booleanValue;
+var undefinedValue;
+var nullValue;
+var objValue;
+var symbolValue;
+numValue = 3.3;
+stringValue = "hello";
+booleanValue = true;
+undefinedValue = undefined;
+undefinedValue = null;
+objValue = new String('hello');
+var nameList;
+nameList.push("hello");
+nameList = ["1", "3"];
+var user1;
+user1 = { name: "lotte", score: 30 };
+var user2;
+var tuple2;
+tuple2 = [1, "hello"];
+var tuple3;
+tuple3 = [1, 2, 3];
+//# sourceMappingURL=basicType.js.map

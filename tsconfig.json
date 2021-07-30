@@ -6,6 +6,7 @@
     "rootDir": "src",
     "outDir": "dist",
     "target": "es5",
+    "lib": ["es2015", "DOM"], // 이게 없으면 Promise나 setTimeout, console 등을 정상적으로 사용할 수 없더라(2021-07-20)
     "sourceMap": true, // 크롬에서 원본인 타입스크립트 소스 내용을 연결해서 보고 싶을 때(hello.js.map이 생성)
     "removeComments": true, // 주석 제거 옵션
     "noImplicitAny": false // type을 실수로 넣지 않아 any로 설정되는 것을 방지하는 옵션

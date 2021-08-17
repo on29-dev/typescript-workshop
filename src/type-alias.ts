@@ -3,7 +3,7 @@
 // 2. 이전에 있던 타입의 이름을 바꿈
 // 3. 리터럴 문자열 타입을 이용한 타입을 만듦
 
-interface User {
+interface UserTypeAlias {
   name: string;
 }
 
@@ -12,8 +12,8 @@ interface Action {
 }
 
 // 타입별칭 정의
-type UserAction = User & Action;
-function createUserAction(): UserAction {
+type UserAction = UserTypeAlias & Action;
+function createUserActionTypeAlias(): UserAction {
   return {
     do(){},
     name: ''
